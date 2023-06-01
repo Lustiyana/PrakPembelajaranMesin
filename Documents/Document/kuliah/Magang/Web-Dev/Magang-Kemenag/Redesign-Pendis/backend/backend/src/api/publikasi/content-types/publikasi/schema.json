@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publikasis",
+  "info": {
+    "singularName": "publikasi",
+    "pluralName": "publikasis",
+    "displayName": "Publikasi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

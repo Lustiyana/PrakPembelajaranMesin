@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kolom_opinis",
+  "info": {
+    "singularName": "kolom-opini",
+    "pluralName": "kolom-opinis",
+    "displayName": "Kolom Opini",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "tag": {
+      "type": "text"
+    }
+  }
+}

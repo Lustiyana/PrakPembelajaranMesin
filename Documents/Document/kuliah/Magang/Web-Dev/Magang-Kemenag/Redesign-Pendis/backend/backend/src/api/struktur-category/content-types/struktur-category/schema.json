@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "struktur_categories",
+  "info": {
+    "singularName": "struktur-category",
+    "pluralName": "struktur-categories",
+    "displayName": "Struktur Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "strukturs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::struktur.struktur",
+      "mappedBy": "struktur_category"
+    }
+  }
+}

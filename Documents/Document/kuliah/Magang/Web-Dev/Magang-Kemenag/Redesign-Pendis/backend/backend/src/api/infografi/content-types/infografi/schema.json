@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "infografis",
+  "info": {
+    "singularName": "infografi",
+    "pluralName": "infografis",
+    "displayName": "Infografi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
